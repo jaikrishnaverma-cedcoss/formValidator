@@ -1,0 +1,165 @@
+/* for Tags Default Styling */
+*{
+    margin: 0;
+    padding: 0px;
+}
+.body{
+    width: 100vw;
+    height: 100vh;
+}
+select,button{
+    min-height:35px;
+    min-width:140px;
+    padding: 2px 5px;
+    font-size: 15px;
+    margin:5px
+}
+button{
+    min-width: 90px;
+}
+input{
+    min-height:25px;
+    min-width:100px;
+    padding: 2px 5px;
+    font-size: 15px;
+    margin:5px
+
+}
+
+/* custom classes for UI */
+
+.row{
+    display: flex;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    padding: 2%;
+}
+.flexAIC{
+    align-items: center;
+}
+.flexJCC{
+    justify-content: center;
+}
+.flexSB{
+    justify-content: space-between;
+}
+.flexSA{
+    justify-content: space-Around;
+}
+.margin20{
+    margin: 20px;
+}
+.card{
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5% 1% .5% 1%;
+}
+
+.btn
+{
+    min-width: 60px;
+    min-height: 37px;
+    padding: 5px 8px 5px 8px;
+    outline: 1px solid whitesmoke;
+    font-size: 19px;
+    border-radius: 5px;   
+    border: none;
+    outline: none;background-color: white;
+}
+.link
+{
+    color: white;
+    background-color: #4500ff;
+}
+.btn-success
+{
+    color: white;
+    background-color: rgb(10, 173, 10);
+}
+.btn-black{
+    color: white;
+    background-color: #303030;
+}
+.btn-warning
+{
+    background-color: #ffee00;
+}
+.btn-danger
+{
+    color: white;
+    background-color: #d80000;
+}
+.btn-info
+{
+    color: white;
+    background-color: #008dce;
+}
+
+.searchbox
+{
+    height:90%;
+    border:1px solid rgb(189, 189, 189);
+    border-radius:5px;
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+   width: 52%;
+   background-color: white;
+   overflow: hidden;
+   padding: 0px 1%;
+}
+.searchbox input
+{
+    width: 95%;
+    height: 97%;
+    font-size: 20px;
+    border: none;
+}
+.border-outline-none{
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+
+}
+.btn:active {
+    -webkit-box-shadow: inset 1px 1px 10px #333;
+    -moz-box-shadow:    inset 1px 1px 10px #333;
+    box-shadow:         inset 1px 1px 10px #333;
+ }
+.searchbox input:hover,.searchbox input:focus{
+    outline: none;
+
+}
+.hamburger{
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
